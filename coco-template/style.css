@@ -12,6 +12,11 @@
 } */
 body{
   background-color: #fffacd;
+ font-family: 'Potta One';
+}
+@font-face{
+  font-family:'Potta One';
+  src:url('./fonts/PottaOne-Regular.ttf') format('truetype');
 }
 
 #page-top {
@@ -66,7 +71,7 @@ body{
 	text-align: center;
 	text-transform: uppercase; 
 	text-decoration: none;
-	font-size:0.6rem;
+	font-size:0.4rem;
     /*背景画像の指定*/
 	background: url("https://www.pngkit.com/png/full/844-8448305_goat-.png") no-repeat center;
 	background-size: contain;
@@ -104,6 +109,7 @@ body{
 } */
 section{
 padding: 500px 0;
+font-family: 'Potta One';
 }
 /* .background-green{
   width: 100%;
@@ -120,6 +126,7 @@ padding: 500px 0;
         /* margin-left: auto;
 margin-right:auto; */
 transform: translateY(-180px);
+
 }
 
 .box1 {
@@ -130,7 +137,7 @@ transform: translateY(-180px);
   background:#CEDCA5;
   color:#ED8B45;
   text-align:center;
-  font-family: bold;
+  font-family: 'Potta One';
   box-sizing: border-box;
   font-size: 60px;
   /* display: flex; */
@@ -179,7 +186,7 @@ position: center;
 background:#CEDCA5;
 color:#ED8B45;
 text-align:center;
-font-family: bold;
+font-family: 'Potta One';;
 box-sizing: border-box;
 font-size: 60px;
 /* display: flex; */
@@ -339,7 +346,7 @@ position: absolute;
   background:#CEDCA5;
   color:#ED8B45;
   text-align:center;
-  font-family: bold;
+  font-family: 'Potta One';;
   box-sizing: border-box;
   font-size: 60px;
   display: flex;
